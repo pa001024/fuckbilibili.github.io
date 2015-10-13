@@ -429,12 +429,12 @@ def GetVideoOfZhuanti(spid,season_id=None,bangumi=None)
     * place：所在地
     * description：认证用户为认证信息 普通用户为交友宣言
     * attentions：关注的好友列表
--* Rank 说明
--    * 32000: 站长 – 有权限获取所有视频信息 (包括未通过审核和审核中的视频)
--    * 31000: 职人
--    * 20000: 字幕君 – 有权限发送逆向弹幕
--    * 10000: 普通用户
--    * 参见 B 站 2012 年时因服务器配置错误泄露的部分 PHP 源码可更多了解权限机制: [https://gist.github.com/zacyu/8ed569008acff5ed05b5](https://gist.github.com/zacyu/8ed569008acff5ed05b5)
+* Rank 说明
+    * 32000: 站长 – 有权限获取所有视频信息 (包括未通过审核和审核中的视频)
+    * 31000: 职人
+    * 20000: 字幕君 – 有权限发送逆向弹幕
+    * 10000: 普通用户
+    * 参见 B 站 2012 年时因服务器配置错误泄露的部分 PHP 源码可更多了解权限机制: [https://gist.github.com/zacyu/8ed569008acff5ed05b5](https://gist.github.com/zacyu/8ed569008acff5ed05b5)
 
 #### API实现
 ```python
