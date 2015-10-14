@@ -2,7 +2,30 @@
 layout: page
 permalink: "bilidown.html"
 title:  "BilibiliDownload"
+includejs: "http://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"
 ---
+<head>
+  <link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
+  <style type="text/css">
+    .video-js-responsive-container.vjs-hd {
+    padding-top: 56.25%;
+    }
+    .video-js-responsive-container.vjs-sd {
+        padding-top: 75%;
+    }
+    .video-js-responsive-container {
+        width: 100%;
+        position: relative;
+    }
+    .video-js-responsive-container .video-js {
+        height: 100% !important; 
+        width: 100% !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+  </style>
+</head>
 
 ## 事前唠个叨
 
@@ -16,9 +39,18 @@ b站审核肯定不通过，而且采用了b站一贯的不要脸方法，挂在
 
 放tm狗屁，怎么可能？！
 
-不用b站我们还有Vimeo呢对吧：
+不用b站我们又不是没有自己的服务器：
 
-<iframe src="https://player.vimeo.com/video/142360556?color=3394f4&title=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video-js-responsive-container vjs-hd">
+    <video id="my-video" class="video-js" controls preload="auto" data-setup="{}">
+      <source src="http://bilibili.download/Adout.mp4" type='video/mp4'>
+      <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+</div>
+<script src="http://vjs.zencdn.net/5.0.0/video.js"></script>
 
     其实一开始叫我配音我是拒绝的，因为你不能叫我配我就配，第一我要……
 
