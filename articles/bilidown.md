@@ -44,7 +44,7 @@ b站审核肯定不通过，而且采用了b站一贯的不要脸方法，挂在
 <script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/5.0.0/lang/zh-CN.js"></script>
 
 <div class="video-js-responsive-container vjs-hd">
-<video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" data-setup='{"language":"zh-CN"}'>
+<video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" data-setup='{"language":"zh-CN"}' poster="//cdn-tlo.b0.upaiyun.com/fuckbilibili/img/2015-10-17-09.08.28.png">
   <source src="//cdn-tlo.b0.upaiyun.com/fuckbilibili/5s5b7h3ek5uaxl8az2942100.mp4" type='video/mp4'>
   <p class="vjs-no-js">
   To view this video please enable JavaScript, and consider upgrading to a web browser that
