@@ -40,17 +40,18 @@ b站审核肯定不通过，而且采用了b站一贯的不要脸方法，挂在
 
 不用b站我们又不是没有自己的服务器：
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/video.js/5.0.0/video.min.js"></script>
+<script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/5.0.0/lang/zh-CN.js"></script>
+
 <div class="video-js-responsive-container vjs-hd">
 <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" data-setup='{"language":"zh-CN"}'>
-  <source src="cdn-tlo.b0.upaiyun.com/fuckbilibili/5s5b7h3ek5uaxl8az2942100.mp4" type='video/mp4'>
+  <source src="//cdn-tlo.b0.upaiyun.com/fuckbilibili/5s5b7h3ek5uaxl8az2942100.mp4" type='video/mp4'>
   <p class="vjs-no-js">
   To view this video please enable JavaScript, and consider upgrading to a web browser that
   <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
   </p>
 </video>
 </div>
-<script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/5.0.0/lang/zh-CN.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/video.js/5.0.0/video.min.js"></script>
 
     其实一开始叫我配音我是拒绝的，因为你不能叫我配我就配，第一我要……
 
