@@ -10,7 +10,11 @@ layout: compress
     <article class="content container">
       {{ content }}
     </article>
-	{% include sidebar.html %}
-
+    {% include sidebar.html %}
+  {% if site.piwik_analytics_tracking_id %}
+  <!-- Piwik -->
+  <noscript><p><img src="{{ site.piwik_analytics_url }}piwik.php?idsite={{ site.piwik_analytics_tracking_id }}" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+  {% endif %}
   </body>
 </html>

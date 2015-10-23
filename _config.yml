@@ -33,3 +33,6 @@ gems:
 miantags:
 - fuckbilibili
 - 哔哩哔哩
+
+piwik_analytics_url: "http://analytics.superfashi.com/"
+piwik_analytics_tracking_id: "1"
