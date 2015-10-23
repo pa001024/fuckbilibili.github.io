@@ -40,7 +40,7 @@ b站审核肯定不通过，而且采用了b站一贯的不要脸方法，挂在
 
 不用b站我们又不是没有自己的服务器：
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/video.js/5.0.0/video.min.js"></script>
+<script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/5.0.0/video.min.js"></script>
 <script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/5.0.0/lang/zh-CN.js"></script>
 
 <div class="video-js-responsive-container vjs-hd">
