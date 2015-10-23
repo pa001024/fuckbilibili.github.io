@@ -11,10 +11,23 @@ layout: compress
       {{ content }}
     </article>
     {% include sidebar.html %}
-  {% if site.piwik_analytics_tracking_id %}
-  <!-- Piwik -->
-  <noscript><p><img src="{{ site.piwik_analytics_url }}piwik.php?idsite={{ site.piwik_analytics_tracking_id }}" style="border:0;" alt="" /></p></noscript>
-  <!-- End Piwik Code -->
-  {% endif %}
+	{% if site.piwik_analytics_tracking_id %}
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(["setDomains", ["*.www.fuckbilibili.com","*.github.fuckbilibili.com"]]);
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//analytics.superfashi.com/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', 1]);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//analytics.superfashi.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	{% endif %}
   </body>
 </html>
