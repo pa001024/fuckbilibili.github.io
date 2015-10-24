@@ -53,6 +53,15 @@ b站审核肯定不通过，而且采用了b站一贯的不要脸方法，挂在
 </video>
 </div>
 
+<script>
+var video = videojs('my-video').ready(function(){
+	var player = this;
+	player.on('ended', function() {
+		_paq.push( ['trackGoal', 1]);
+	});
+});
+</script>
+
     其实一开始叫我配音我是拒绝的，因为你不能叫我配我就配，第一我要……
 
 ### 主源码如下：
