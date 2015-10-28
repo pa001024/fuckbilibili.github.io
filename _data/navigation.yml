@@ -4,6 +4,8 @@
   url: "/livenumber.html"
 - title: "BilibiliDownload"
   url: "/bilidown.html"
+- title: "自动领直播间银瓜子"
+  url: "/bililivesilver.html"
 - title: "批量发弹幕器"
   url: "/srt2bilibili.html"
 - title: "B站API"
