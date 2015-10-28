@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: "bililivesilver.html"
-title:  "直播自动领银瓜子"
+title:  "自动领直播间银瓜子"
 ---
 
 ## 事前唠个叨
