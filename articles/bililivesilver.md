@@ -321,7 +321,7 @@ INFO/DEBUG
     数据库每天凌晨清零，觉得好用的话第二天再来提交哦~
 
 ### 怎么获取Cookie？
-按F12打开浏览器调试工具，换到console（控制台）一栏，输入以下命令：
+打开b站[直播主页](http://live.bilibili.com)，按F12打开浏览器调试工具，换到console（控制台）一栏，输入以下命令：
 
 ```document.cookie```
 
