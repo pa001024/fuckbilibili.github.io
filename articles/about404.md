@@ -104,7 +104,7 @@ if __name__=='__main__':
     print('Done! Success: ' + str(SUCCESS))
 {% endhighlight %}
 
-[Github](https://github.com/cnbeining/DNSTester)
+[Github](https://github.com/cnbeining/DNSTester){:target="_blank"}
 
 ### Javascript版：
 
@@ -179,12 +179,12 @@ function r_send(a) {
 }
 {% endhighlight %}
 
-大家可以在[这里](/js/dnstester.js)或者 [Github](https://github.com/cnbeining/DNSTester.js) 上找到源码和使用方式。
+大家可以在[这里](/js/dnstester.js){:target="_blank"}或者 [Github](https://github.com/cnbeining/DNSTester.js){:target="_blank"} 上找到源码和使用方式。
 
 ***
 
 404页面中设置的只有10秒，每秒100次而已，对b站基本上一点影响也没有，除非有很多人大量访问404页面，同样也是不可能的，所以只是增加404娱乐性，大可不必担心。
 
-所以就来玩玩吧~ [404 Not Found~](http://www.fuckbilibili.com/404.html)
+所以就来玩玩吧~ [404 Not Found~](http://www.fuckbilibili.com/404.html){:target="_blank"}
 
 点开导航栏中的 *cnBeining* 页面，你会发现更多有趣的东西~

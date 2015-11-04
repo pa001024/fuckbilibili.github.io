@@ -425,7 +425,7 @@ if __name__=='__main__':
     用假ip发弹幕
 {% endhighlight %}
 
-更多信息[http://docs.bilibili.cn/wiki/API.comment](http://docs.bilibili.cn/wiki/API.comment)
+更多信息[http://docs.bilibili.cn/wiki/API.comment](http://docs.bilibili.cn/wiki/API.comment){:target="_blank"}
 
 ##需求：
 

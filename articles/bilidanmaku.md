@@ -26,7 +26,7 @@ title:  "B站弹幕“匿名”？"
 
 我们只要调用View的api，就可以用aid和分p号换取对应的cid。
 
-操作详见[b站api](http://www.fuckbilibili.com/biliapi.html)
+操作详见[b站api](http://www.fuckbilibili.com/biliapi.html){:target="_blank"}
 
 然后弹幕的XML文件就可以拿到了，在```http://comment.bilibili.com/{cid}.xml```。但是我们不能拿到历史弹幕。
 
@@ -162,12 +162,12 @@ if __name__ == '__main__':
 ~ $ python3 danmakuDecrypt.py http://www.bilibili.com/video/av12450 23333
 {% endhighlight %}
 
-大家可以在[这里](/script/danmakuDecrypt.py)下载到Python版源码
+大家可以在[这里](/script/danmakuDecrypt.py){:target="_blank"}下载到Python版源码
 
-或者直接去 [Github](https://github.com/fuckbilibili/Danmaku-De-annoymous) 上找到js和Python的源码。
+或者直接去 [Github](https://github.com/fuckbilibili/Danmaku-De-annoymous){:target="_blank"} 上找到js和Python的源码。
 
 ***
 
 什么？上面的看不懂？那就直接拿来用吧！
 
-## [匿名弹幕解密器](http://danmu.fuckbilibili.com)
+## [匿名弹幕解密器](http://danmu.fuckbilibili.com){:target="_blank"}

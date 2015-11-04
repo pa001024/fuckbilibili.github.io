@@ -4,7 +4,7 @@ permalink: "biliapi.html"
 title:  "B站API"
 ---
                                                                 
-> 以下B站API全部由 [**Vespa314**](https://github.com/Vespa314/bilibili-api) 收集整理及开发。此 API 为人为整理，不能保证今后一直有效。
+> 以下B站API全部由 [**Vespa314**](https://github.com/Vespa314/bilibili-api){:target="_blank"} 收集整理及开发。此 API 为人为整理，不能保证今后一直有效。
 
 >此文的代码示例主要由 Python 实现。
 
@@ -434,7 +434,7 @@ def GetVideoOfZhuanti(spid,season_id=None,bangumi=None)
     * 31000: 职人
     * 20000: 字幕君 – 有权限发送逆向弹幕
     * 10000: 普通用户
-    * 参见 B 站 2012 年时因服务器配置错误泄露的部分 PHP 源码可更多了解权限机制: [https://gist.github.com/zacyu/8ed569008acff5ed05b5](https://gist.github.com/zacyu/8ed569008acff5ed05b5)
+    * 参见 B 站 2012 年时因服务器配置错误泄露的部分 PHP 源码可更多了解权限机制: [https://gist.github.com/zacyu/8ed569008acff5ed05b5](https://gist.github.com/zacyu/8ed569008acff5ed05b5){:target="_blank"}
 
 #### API实现
 ```python

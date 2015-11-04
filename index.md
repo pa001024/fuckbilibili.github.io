@@ -4,7 +4,7 @@ title: "为什么我们想要做这个网站？"
 full_title: "哔哩哔哩乾nm的杯! - FuckBilibili"
 ---
 
-你有必要先看看[这个](http://wiki.esu.im/%E5%BE%90%E9%80%B8)了解一些东西。
+你有必要先看看[这个](http://wiki.esu.im/%E5%BE%90%E9%80%B8){:target="_blank"}了解一些东西。
 
 b站的历史不必多说，影响力也不必多说，内容的丰富性也不必多说，好处也不必多说。
 
@@ -18,6 +18,6 @@ b站的历史不必多说，影响力也不必多说，内容的丰富性也不�
 
 你可以在导航栏中看到许多有意思的小文章，有的文章甚至可以进行交互哦~
 
-我们也非常希望各样的程序猿能来这里投稿，你们可以直接 [Fork 这个项目](https://github.com/fuckbilibili/fuckbilibili.github.io/fork)，根据[新页面向导](https://github.com/fuckbilibili/fuckbilibili.github.io/tree/master/_example/guideline.md)建立你的页面，然后发送一个 Pull request。
+我们也非常希望各样的程序猿能来这里投稿，你们可以直接 [Fork 这个项目](https://github.com/fuckbilibili/fuckbilibili.github.io/fork){:target="_blank"}，根据[新页面向导](https://github.com/fuckbilibili/fuckbilibili.github.io/tree/master/_example/guideline.md){:target="_blank"}建立你的页面，然后发送一个 Pull request。
 
-如果你认为我们网页有任何的问题或是你有一些意见，请[在这里发表 issues](https://github.com/fuckbilibili/fuckbilibili.github.io/issues/new)。
+如果你认为我们网页有任何的问题或是你有一些意见，请[在这里发表 issues](https://github.com/fuckbilibili/fuckbilibili.github.io/issues/new){:target="_blank"}。

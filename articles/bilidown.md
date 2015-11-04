@@ -161,7 +161,7 @@ if __name__ == '__main__':
         print(media_urls)
 {% endhighlight %}
 
-大家如果有域名的话可以搞个100个这样的网站出来，想自建的可以在 [Github](https://github.com/fuckbilibili/BilibiliDownload) 上找到完整的源码，clone就可以直接用。
+大家如果有域名的话可以搞个100个这样的网站出来，想自建的可以在 [Github](https://github.com/fuckbilibili/BilibiliDownload){:target="_blank"} 上找到完整的源码，clone就可以直接用。
 
 ##用法
 

@@ -95,7 +95,7 @@ if __name__=='__main__':
     main(cid, thread_number, is_proxy)
 {% endhighlight %}
 
-嘛，开包即用，效果良好。大家可以在[这里](/script/live_number.py)或者 [Github](https://gist.github.com/typcn/cd87a471e0575a6785b9) 上找到源码。
+嘛，开包即用，效果良好。大家可以在[这里](/script/live_number.py){:target="_blank"}或者 [Github](https://gist.github.com/typcn/cd87a471e0575a6785b9){:target="_blank"} 上找到源码。
 
 ##用法
 

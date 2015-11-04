@@ -301,7 +301,7 @@ Cookie的位置
 INFO/DEBUG
 {% endhighlight %}
 
-大家可以在[这里](/script/autograb.py)或者去 [Github](https://github.com/fuckbilibili/Bilibili-Silver-Grab) 上找到源码。
+大家可以在[这里](/script/autograb.py){:target="_blank"}或者去 [Github](https://github.com/fuckbilibili/Bilibili-Silver-Grab){:target="_blank"} 上找到源码。
 
 ***
 
@@ -321,7 +321,7 @@ INFO/DEBUG
     数据库每天凌晨清零，觉得好用的话第二天再来提交哦~
 
 ### 怎么获取Cookie？
-打开b站[直播主页](http://live.bilibili.com)，按F12打开浏览器调试工具，换到console（控制台）一栏，输入以下命令：
+打开b站[直播主页](http://live.bilibili.com){:target="_blank"}，按F12打开浏览器调试工具，换到console（控制台）一栏，输入以下命令：
 
 ```document.cookie```
 
