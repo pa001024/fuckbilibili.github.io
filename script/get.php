@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: text/html;charset=utf-8");
-$cookie = $_POST["cookie"];
+$cookie = $_POST["Cookie"];
 $redis = new Redis();
 
 $redis->connect('127.0.0.1', 6379);
