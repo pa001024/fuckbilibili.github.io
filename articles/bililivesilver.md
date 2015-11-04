@@ -3,10 +3,17 @@ layout: page
 permalink: "bililivesilver.html"
 title:  "自动领直播间银瓜子"
 ---
+<style type="text/css">
+  input[type=text]{border:2px solid #ccc;color:#000;font-size:1em;padding:10px 15px 10px 15px;}
+  #container{text-align: center;}
+  #cookie_input{width: 100%;height: 100%}
+</style>
 
 ## 事前唠个叨
 
 Beining又无聊写了个自动领B站直播间银瓜子的程序，我改了改，放了上来~
+
+最下面有惊喜哦~
 
 ### Python示例源码如下：
 勿吐槽两种Python写法交集……
@@ -298,4 +305,24 @@ INFO/DEBUG
 
 ***
 
-很牛逼的功能马上上线~
+什么？上面的都看不懂？？直接给你免费用吧，真是的（＞д＜）
+
+<div id="container">
+  <form method="post" id="downform" name="downform" action="//www.fuckbilibili.com/script/get.php">
+  <p>将你的b站Cookie直接丢到这里即可~</p>
+    <input type="text" name="Cookie" id="cookie_input" placeholder="LIVE_BUVID=xxx; LIVE_BUVID__ckMd5=xxx; DedeUserID=xxx; DedeUserID__ckMd5=xxx; SESSDATA=xxx; LIVE_LOGIN_DATA=xxx; LIVE_LOGIN_DATA__ckMd5=xxx; DedeID=xxx" />
+    <input type="submit" style="display: none;" />
+  </form>
+</div>
+
+    领取分3次循环，每次循环为3小部分：
+    3分钟等待，拿30个；6分钟等待，拿80个；10分钟等待，拿190个。
+    总共需要1个小时左右，总共可以每天拿900个。
+    数据库每天凌晨清零，觉得好用的话第二天再来提交哦~
+
+### 怎么获取Cookie？
+按F12打开浏览器调试工具，换到console（控制台）一栏，输入以下命令：
+
+```document.cookie```
+
+把获取到的Cookie直接丢上来就行了~（不带最外引号）
