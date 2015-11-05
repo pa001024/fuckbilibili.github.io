@@ -13,6 +13,7 @@ $keyname = preg_replace('{(.*)?DedeUserID=([\d]+);(.*)?}', '$2', $cookie);
 
 if ($redis->exists($keyname)) {
 	$status = $redis->hget($keyname, 'status');
+	$cookieexist = $redis->hget($keyname, 'cookie');
 	if ($status == 'processing') {
 		echo "<script>alert('正在为你领取银瓜子~');history.go(-1);</script>";
 		exit;
@@ -20,6 +21,15 @@ if ($redis->exists($keyname)) {
 	elseif ($status == 'processed') {
 		echo "<script>alert('今天的银瓜子已经领完了，明天再来吧~');history.go(-1);</script>";
 		exit;
+	}
+	elseif ($status == 'problem') {
+		if ($cookieexist == $cookie) {
+			echo "<script>alert('Cookie数据有问题，请检查后再重新提交！');history.go(-1);</script>";
+			exit;
+		}
+		else {
+			echo "<script>alert('成功更新Cookie数据！');</script>";
+		}
 	}
 	else {
 		echo "<script>alert('你的任务正在队列中，稍后再看看吧~');history.go(-1);</script>";
