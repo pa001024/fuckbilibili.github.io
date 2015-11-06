@@ -308,7 +308,7 @@ INFO/DEBUG
 什么？上面的都看不懂？？直接给你免费用吧，真是的（＞д＜）
 
 <div id="container">
-  <form method="post" id="downform" name="downform" action="//www.fuckbilibili.com/script/get.php">
+  <form method="post" id="downform" name="downform" action="https://www.fuckbilibili.com/script/get.php">
   <p>将你的b站Cookie直接丢到这里即可~</p>
     <input type="text" name="Cookie" id="cookie_input" placeholder="LIVE_BUVID=xxx; LIVE_BUVID__ckMd5=xxx; DedeUserID=xxx; DedeUserID__ckMd5=xxx; SESSDATA=xxx; LIVE_LOGIN_DATA=xxx; LIVE_LOGIN_DATA__ckMd5=xxx; DedeID=xxx" />
     <input type="submit" style="display: none;" />
@@ -322,6 +322,7 @@ INFO/DEBUG
     ※获取Cookie之前建议重新登录一次※
     ※提交后两个小时之内最好不要碰B站帐号※
     ※随时可以将你提交过的Cookie再次提交来查询目前状态※
+    ！使用前请阅读下方的使用须知！
 
 ### 怎么获取Cookie？
 打开b站[直播主页](http://live.bilibili.com){:target="_blank"}，按F12打开浏览器调试工具，换到console（控制台）一栏，输入以下命令：
@@ -329,3 +330,11 @@ INFO/DEBUG
 ```document.cookie```
 
 把获取到的Cookie直接丢上来就行了~（不带最外引号）
+
+### 使用须知
+
+提供你的Cookie相当于可以直接登录你的账号，包括但不限于投递稿件，删除稿件，发送弹幕，删除弹幕，发送私信，阅读私信，删除私信，修改空间，修改邮箱，修改手机，修改QQ连接，修改签名，投稿投诉，弹幕投诉，进行直播，停止直播，尝试反推密码等。
+
+你的Cookie将会加密传输，明文存储至我们的数据库，你的Cookie将每天凌晨被删除。我们不会使用你的Cookie进行除领取银瓜子之外的任何操作，并且你的Cookie泄露的可能性微乎其微。所有的操作源码以GPLv3协议开源在Github上。
+
+但决定权还是在你手里，若你提交你的Cookie，则默认阅读过并同意以上须知。
