@@ -24,7 +24,7 @@ if ($redis->exists($keyname)) {
 	}
 	elseif ($status == 'problem') {
 		if ($cookieexist == $cookie) {
-			echo "<script>alert('Cookie数据有问题，请检查后再重新提交！');history.go(-1);</script>";
+			echo "<script>alert('Cookie数据有问题，请尝试重新登录获取后再提交！');history.go(-1);</script>";
 			exit;
 		}
 		else {
