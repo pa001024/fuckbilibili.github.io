@@ -338,3 +338,17 @@ INFO/DEBUG
 你的Cookie将会加密传输，明文存储至我们的数据库，你的Cookie将每天凌晨被删除。我们不会使用你的Cookie进行除领取银瓜子之外的任何操作，并且你的Cookie泄露的可能性微乎其微。所有的操作源码以GPLv3协议开源在Github上。
 
 但决定权还是在你手里，若你提交你的Cookie，则默认阅读过并同意以上须知。
+
+
+### 不想提交cookie?
+
+使用js版吧 (详细说明: [Github](http://pa001024.github.io/BiliSilverCatcher/))
+
+<a style="background: url(http://pa001024.github.io/BiliSilverCatcher/img/1.png) no-repeat 0 0;
+    cursor: move;
+    display: block;
+    height: 56px;
+    width: 290px;
+    margin: 25px 0 0;" href="javascript:void (function(a,d){d=document.createElement('script');d.src=a;document.body.appendChild(d)})('http://pa001024.github.io/BiliSilverCatcher/bsc.js')" class="bookmark-drop-btn" alt="拖动我到书签栏">
+	<span>❤领瓜子</span>
+</a>
